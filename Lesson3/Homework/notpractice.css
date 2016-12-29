@@ -1,0 +1,4 @@
+article:not(p) {
+	color: red
+}
+

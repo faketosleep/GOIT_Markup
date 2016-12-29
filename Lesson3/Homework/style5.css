@@ -1,0 +1,7 @@
+table tr td:nth-of-type(3n+0) {
+	background: #f2f2de;
+}
+
+table tr:nth-of-type(even) {
+	background: #ddebf7;
+}

@@ -1,0 +1,15 @@
+ul li:nth-of-type(n+6) a {
+	color: #666;
+}
+
+a {
+	color: #f70;
+}
+
+ul li:nth-of-type(-n+2) a {
+	color: #0000F3;
+}
+
+ul li:nth-of-type(5)::after {
+	content: " ⇱"
+}
