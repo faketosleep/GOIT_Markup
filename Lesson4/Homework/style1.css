@@ -1,0 +1,44 @@
+body {
+	margin: 0 ;
+	padding: 0;
+	font-family: Impact;
+}
+
+.wrapper {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.navBar {
+	display: inline-block;
+	width: 900px;
+	background-color: #A64DFF;
+	height: 50px;
+	vertical-align: center;
+	box-shadow: 1px -1px 3px;
+}
+
+.menuList {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: inline-block;
+	color: white;
+    text-decoration: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    line-height: 50px;
+}
+
+a:hover {
+	background-color: #EEEEEE;
+	color: #A0A0A0;
+}
+
