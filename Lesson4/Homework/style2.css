@@ -4,13 +4,13 @@ body {
 	font-family: Impact;
 }
 
-.wrapper {
+.navWrapper {
 	text-align: center;
-	margin-top: 20px;
+	margin-top 20px;
 }
 
 .navBar {
-	display: inline-block;
+	margin: 20px auto;
 	width: 900px;
 	background-color: #A64DFF;
 	height: 50px;
@@ -27,7 +27,7 @@ body {
 
 
 li a {
-	display: inline-block;
+	float: left;
 	color: white;
     text-decoration: none;
     padding-right: 15px;
@@ -36,7 +36,7 @@ li a {
 }
 
 li {
-	display: inline-block;
+	float: left;
 }
 
 a:hover {
@@ -44,3 +44,7 @@ a:hover {
 	color: #A0A0A0;
 }
 
+li:last-of-type {
+	float: right;
+	padding-right: 50px;
+}
