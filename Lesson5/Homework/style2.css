@@ -1,0 +1,102 @@
+body {
+	margin: 50px auto auto 820px;
+	padding: 0;
+	font-family: Arial;
+}
+
+.wrapper {
+	width: 300px;
+	height: 470px;
+	border: 3px solid #EE8129;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 2px #CCC;
+}
+
+.header {
+	width: 300px;
+	height: 75px;
+	background-color: #EE8129;
+	text-align: center;
+}
+
+.header h1 {
+	margin: 0;
+	padding: 0;
+	padding-top: 25px;
+	color: #FFFFFF;
+	font-size: 25px;
+}
+
+.body h2 {
+	color: #3F4042;
+	font-weight: lighter;
+}
+
+.body {
+	text-align: center;
+}
+
+#dollar {
+	font-weight: bold;
+	color: #35495A;
+	font-size: 22pt;
+	display: inline-block;
+	position: relative;
+	bottom: 45px;
+}
+
+#price {
+	font-weight: bold;
+	font-size: 66pt;
+	color: #35495A;
+}
+
+#monthly {
+	font-weight: bold;
+	position: relative;
+	top: 10px;
+	color: #35495A;
+}
+
+ul.checkmark li:before {
+    content:"\2713\0020";
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 20px 15px;
+}
+
+li {
+	background-color: #EDF5FD;
+	margin-bottom: 2px;
+	padding: 5px 5px 5px 35px;
+}
+
+li:nth-child(even) {
+	background-color: #F5F5F6;
+}
+
+li span {
+	position: relative;
+	left: 10px;
+	color: #888C94;
+	font-size: 14px;
+}
+
+.button {
+	width: 250px;
+	height: 30px;
+	background-color: #EE8129;
+	border: 3px solid #EE8129;
+	border-radius: 5px;
+	margin: auto;
+	text-align: center;
+	line-height: 30px;
+	vertical-align: middle;
+	font-size: 13px;
+	font-weight: bold;
+	color: #fff;
+	box-shadow: 0px 3px 0px 0px #B3560B;
+}
